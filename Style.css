@@ -1,0 +1,78 @@
+body{
+    background-image: url("background-3883181_1920.jpg");
+    height: 900px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ nav{
+    height: 70px;
+    border: solid black 1px;
+ }
+
+ *{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+ }
+
+ .img{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 200px;
+    float: left;
+ }
+
+ .container{       
+    margin-top: 50px;
+    margin-left: 330px;
+    border: solid black 1px;
+    height: 500px;
+    width: 600px;
+    border-style: inset;
+    position: initial;
+    border-style: outset;
+    background-image: url("MicrosoftTeams-image\ \(2\).png");
+    color: white;
+    
+ }
+
+ button{
+    margin: 25px;
+    color: white;
+    font-size: 18px;
+    background-color:black
+ }
+
+ h3{
+    color: white;
+    font-style: italic;
+ }
+
+ a{
+    color: white;
+    text-decoration: none;
+ }
+
+ .typewriter h2{
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 0.5s steps(30, end),
+    blink-caret .5s step-end infinite;}
+
+    @keyframes typing {from { width: 0 }
+    to { width: 100% }}
+    @keyframes blink-caret {from, to { border-color: transparent }50% 
+    { border-color: rgb(1, 4, 37) }
+    }
+
+    button:visited {
+    color: rgb(128, 0, 96);
+    }

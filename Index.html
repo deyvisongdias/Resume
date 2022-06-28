@@ -6,84 +6,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
-    <style>
-         body{
-            background-image: url("background-3883181_1920.jpg");
-            height: 800px;
-         }
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="Style.css">
+   <script src="Script.js"> 
 
-         nav{
-            height: 70px;
-            border: solid black 1px;
-         }
-
-         *{
-            padding: 0px;
-            margin: 0px;
-            border: 0px;
-         }
-
-         .img{
-            margin-top: 10px;
-            margin-left: 10px;
-            border-radius: 50%;
-            height: 200px;
-            float: left;
-         }
-
-         .container{       
-            margin-top: 100px;
-            margin-left: 330px;
-            border: solid black 1px;
-            height: 500px;
-            width: 800px;
-            border-style: inset;
-            position: initial;
-            border-style: outset;
-            background-color: rgb(34, 33, 33);
-            color: white;
-         }
-
-         button{
-            margin: 25px;
-            color: white;
-            font-size: 18px;
-            background-color:black;
-         }
-
-         h3{
-            color: white;
-            font-style: italic;
-         }
-    </style>
-    <script>
-
-
-    </script>
-
-
+   </script>
+   
 </head>
-<body>
-    
+<body class="typewriter" onload="clickButton() ">
     <table style="margin-left: 310px;">
         <tr>
-            <td><button>Endereço</button> 
-                <button>Descrição</button> 
-                <button>Formação</button> 
-                <button>Treinamentos</button> 
-                <button>Habilidades</button> 
-                <button>Experiencia</button> </td>
+            <td>
+               <button id="b1" onclick="">Contato</button> 
+                <button id="b2" onclick="">Descrição</button> 
+                <button id="b3" onclick="">Formação</button> 
+                <button id="b4" onclick="">Treinamentos</button> 
+                <button id="b5" onclick="">Habilidades</button> 
+                <button id="b6" onclick="">Experiencia</button> 
+            </td>
         </tr>
-
     </table>
-        
-    </nav>
+      
     <div class="img">
-        <img src="linguagem-de-programação.jpg" class="img">
+        <img src="perfil.jpeg" class="img" style="position: fixed;">
     </div>
 
-    <div class="container">
-        dsjkfjasfkjasfjasfa
+    <div class="container" id="endereco" style="padding:80px ;">
+      <h2>Contato</h2><br>
+      <br>
+
+         Telefone: 32 991990152 (Mobile).<br><br>
+         Email: deyvisondias@hotmail.com.<br><br>
+         Linkedin:<a href="https://www.linkedin.com/in/deyvison-gregorio-435301207/"> Deyvison Gregorio.</a><br><br>
+         Github:<a href="https://github.com/deyvisongdias"> deyvisongdias.</a><br><br>
+         Juiz de Fora, Minas Gerais.<br><br>
     </div>
+
+    <div class="container" id="descricao" style="padding:80px ;">
+      <h2>Descrição profissional</h2><br><br>
+      <p>
+         Graduando em Ciência da Computação pela Universidade Federal de Juiz de Fora e também graduando em Análise e Desenvolvimento de Sistemas pela Universidade Estácio de Sá. Trabalho com montagem e manutenção de micro computadores desde 2017.</p>
+         <p>Tenho experiência com tecnologias como IBM Storwise, Dell EMC, Brocade e Hewllet Packard, também tenho conhecimento em virtualização em sistemas Proxmox e Vmware.</p>
+         <p>Tenho conhecimento em desenvolvimento de software em diferentes linguagens de programação e frameworks. </p>
+         <p>Atualmente trabalho com sistemas de Storage na T-Systems do Brasil em Ambiente Mercedes-Benz.</p> 
+      </p>
+    </div>
+
+    <div class="container" id="formacao" style="padding:80px ;">
+      <h2>Formação Academica</h2>
+      <br><br>
+      <h3>Graduações em andamento</h3><br><br>
+      <h4>Universidade Federal de Juiz de Fora</h4>
+      Bacharelado, Ciência da Computação.
+      <br>
+      <br>
+      <h4>Universidade Estácio de Sá</h4>
+      Análise e Desenvolvimento de Sistemas.
+
+    </div>
+
+    <div class="container" id="treinamentos" style="padding:80px;">
+      <h2>Treinamentos</h2>
+      <br><br>
+      <p>Cloud Pratictioner</p>
+       Amazon Web Services (AWS)<br><br> 
+      <p>Introduction to Serverless Development</p>
+       Amazon Web Services (AWS)<br><br>
+      <p>Getting Started with .NET on AWS</p>
+       Amazon Web Services (AWS)<br><br> 
+      <p>Fundamentals of C++ Programming</p>
+      Skillsoft<br><br>
+      <p>Networking Components</p>
+         Skillsoft<br><br>
+      <p>Java Completo | Programção Orientada a Objetos</p>
+         Udemy<br><br>
+      <p>Informatica avançado e montagem e manutenção de computadores</p>
+         NCI Cambridge
+    </div>
+
+    <div class="container" id="habilidades" style="padding:80px ;">
+      <h2>Conhecimentos e habilidades</h2>
+      <br><br>
+      <ul style="padding-left:25px ;">
+         <li>HTML</li>
+         <li>CSS</li>
+         <li>Javascript</li>
+         <li>C</li>
+         <li>C++</li>
+         <li>Java</li>
+         <li>C#</li>
+      </ul>
+      <br>
+      <p>Gosto de estudar diferentes linguagens de programação para implementar projetos academicos e pessoais, me divirto bastante programando e adoro aprender coisas novas.</p>
+      <p>Ja usei diferentes linguagens de programação para projetos com diferentes funcionalidades e demandas e tambem ja auxiliei na criação de funcioanlidades dos sistemas de controle de produção do ambiente Mercedes-Benz.</p>
+      <p>Atualmente eu estudo o framework Spring boot com foco em me tornar um desenvolvedor Fullstack.</p>
+
+    </div>
+
+    <div class="container" id="experiencia" style="padding:80px;">
+      <h2>Experiencia profissional</h2>
+      <br><br>
+      <h3>T-Systems do Brasil</h3>
+      <br>
+         <p>Estagio em sistemas de armazenamento, backup e infraestrutura.
+          Present (9 meses)
+         <br>Juiz de Fora, Minas Gerais, Brasil.</p>
+         <br>
+         <br>
+         <h3>T-Systems do Brasil</h3>
+         <br>
+         <p>Estagio em suporte a redes e infraestrutura
+         <br>Juiz de Fora, Minas Gerais, Brasil.
+         </p><br><br>
+         <h3>Manutenção de computadores</h3><br>
+         <p>Autônomo
+         <br>Juiz de Fora, Minas Gerais, Brasil.</p>
+      
+   </div>
+
+
+
+    
 </body>
 </html>
